@@ -58,7 +58,7 @@ Nishimura, S., Oshiyama, C., Oota, Y.: Towards “Oops! solver” for elderly ca
 公益財団法人テクノエイド協会: 福祉用具ヒヤリ・ハット情報, http://www.techno-aids.or.jp/hiyari/  
   
 ## 引用の仕方  
-本データセットを引用する場合は，「介護の困りごとデータセット（URL**公開するURLを記載します．**）」であることを明記してください．  
+本データセットを引用する場合は，「介護の困りごとデータセット（https://github.com/satoshinishimura2460/Oops-solver-QA-dataset/）」であることを明記してください．  
 *関連する発表が採択された場合には，その文献情報を追記します．  
 Nishimura, S., Oshiyama, C., Oota, Y.: Towards “Oops! solver” for elderly care: structured manuals and its evaluation, International Conference on Nursing Informatics (2020). (Submission)  
   
