@@ -1,0 +1,1954 @@
+困りごと,URL,質問文,クエリ,結果
+利用者の足がフットサポートから落ちてしまい、車いすに巻き込みそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=6,移動するための行為の中で，姿勢を確認することを目的として行う行為は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label  WHERE {
+  {
+    select * where {
+      ?action ont:Achieve+ act:218.
+    }
+  }
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalLabel, ""姿勢を確認"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label
+
+""姿勢を確認する""@ja
+
+	
+
+""深く座る""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""アームサポートに腕を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""フットサポートに足を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""座位・体の位置・左右への傾きがないか確認する""@ja
+"
+利用者のつま先をベッドフレームにぶつけそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=10,移動介助の際に姿勢を確認する手順は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label  WHERE {
+  {
+    select * where {
+      ?action ont:Achieve+ act:218.
+    }
+  }
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalLabel, ""姿勢を確認"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label
+
+""姿勢を確認する""@ja
+
+	
+
+""深く座る""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""アームサポートに腕を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""フットサポートに足を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""座位・体の位置・左右への傾きがないか確認する""@ja
+"
+ブレーキとタイヤの間に指を入れてしまい、ケガをしそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=12,移動介助の際に姿勢を確認する手順は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label  WHERE {
+  {
+    select * where {
+      ?action ont:Achieve+ act:218.
+    }
+  }
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalLabel, ""姿勢を確認"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label
+
+""姿勢を確認する""@ja
+
+	
+
+""深く座る""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""アームサポートに腕を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""フットサポートに足を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""座位・体の位置・左右への傾きがないか確認する""@ja
+"
+"足側にズレた利用者の身体を
+、介助者が戻そうとして、ケガをしそうになる",http://www.techno-aids.or.jp/hiyari/detail.php?id=27,水平移動を行う際の手順は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?GoalCondition ?label  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?preparation ont:hasCondition ?GoalCondition.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalCondition, ""水平移動"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	GoalCondition 	label
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者を仰臥位に戻す""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""摩擦を少なくする""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""両手でスライディングシートを引く""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者の手を胸の前で組む""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者の膝を立てる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""大きく足を開いて立つ""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者の両肩の下のシートを両手で持つ""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""介護者の体を反らせる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""シートを引く""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""両膝を曲げる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者の足元側の足に重心を乗せる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""脚でベッドを蹴るようにする""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""枕を移動する方向にずらす""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""体を移動する""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""手を胸の前で組む""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""膝を立てる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""患側の肘を健側の手で支える""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""健側の脚を曲げる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""移動する側に位置する""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""上半身を手前に引き寄せる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""下半身を手前に引き寄せる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者の首の下に片腕を差し込む""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""差し込んだ片腕で頭部と両肩を支持する""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""もう片方の腕を支柱にし、介護者の体重を乗せる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""介護者の重心を手前に移動させる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者の上半身を移動させる""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""両腕を利用者の首の下と腰の下から、反対側まで手を深く差し込む""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者の肩と腰を支える""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""介護者自身の重心移動で利用者の重心の移動を行う""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""両腕を利用者の大腿部と腰の下に差し込む""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""上半身を同じ要領で移動する""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""仙骨部と肩に両手を差し込む""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者を移動する""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""自力補助を依頼する""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""合図を出す""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""健側脚でベッドを蹴って状態移動を補助する""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""スライディングシートで水平移動する""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""利用者を側臥位にする""@ja
+
+""水平に移動する""@ja
+
+	
+
+""水平移動""
+
+	
+
+""ベッドにスライディングシートを敷く""@ja
+"
+ベッドを上げ過ぎて、利用者の足が床から離れ、前方へ転落しそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=40,ベッドの高さを調節する際の行為の属性は何か？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+SELECT ?attribute WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve ?preparation;
+          ont:hasAttribute ?attribute;
+          rdfs:label ?label.
+  filter regex(?label, ""ベッドの高さを調節する"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+} order by ?preparation"," attribute
+
+""移動先の座面が少し低くなる高さ""
+
+""the hight is little lower than the bearing surface of something""@en
+
+""高さ＝移乗する先が少し低くなるように""
+
+""hight: moved location? little lower than something""@en
+"
+スライディングボードからすべり落ち、ケガをしそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=52,スライディングボードを使うときのリスクは何か？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+SELECT ?GoalLabel ?label ?risk WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve ?preparation;
+          ont:hasRisk ?risk;
+          rdfs:label ?label.
+  filter regex(?GoalLabel, ""スライディングボードを利用する"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+} order by ?preparation
+"," GoalLabel 	label 	risk
+
+""スライディングボードを利用する""@ja
+
+	
+
+""浅く腰掛ける""@ja
+
+	
+
+""前方に転倒""
+"
+背中を洗う際に利用者が前方にすべり落ちそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=92,腰を浮かす際のリスクは？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label ?risk  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+  OPTIONAL{ ?action ont:hasRisk ?risk.}.
+
+  filter regex(?GoalLabel, ""腰を浮かす"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label 	risk
+
+""腰を浮かす""@ja
+
+	
+
+""前かがみになる""@ja
+
+	
+
+""転倒""
+
+""腰を浮かす""@ja
+
+	
+
+""腕によりかかる""@ja
+
+	
+
+""転倒""
+
+""腰を浮かす""@ja
+
+	
+
+""患側の膝を介護者の膝でブロックする""@ja
+
+	
+
+""腰を浮かす""@ja
+
+	
+
+""患側の足の前に介護者の足を置く""@ja
+
+	
+
+""腰を浮かす""@ja
+
+	
+
+""浴槽の縁や台に手をつく""@ja
+
+	
+
+""腰を浮かす""@ja
+
+	
+
+""片腕を利用者の脇の下に差し入れる""@ja
+
+	"
+入浴用いすに座った利用者の身体を洗う際に後方へ転倒しそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=98,腰を浮かす際のリスクは？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label ?risk  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+  OPTIONAL{ ?action ont:hasRisk ?risk.}.
+
+  filter regex(?GoalLabel, ""腰を浮かす"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label 	risk
+
+""腰を浮かす""@ja
+
+	
+
+""前かがみになる""@ja
+
+	
+
+""転倒""
+
+""腰を浮かす""@ja
+
+	
+
+""腕によりかかる""@ja
+
+	
+
+""転倒""
+
+""腰を浮かす""@ja
+
+	
+
+""患側の膝を介護者の膝でブロックする""@ja
+
+	
+
+""腰を浮かす""@ja
+
+	
+
+""患側の足の前に介護者の足を置く""@ja
+
+	
+
+""腰を浮かす""@ja
+
+	
+
+""浴槽の縁や台に手をつく""@ja
+
+	
+
+""腰を浮かす""@ja
+
+	
+
+""片腕を利用者の脇の下に差し入れる""@ja
+
+	"
+つり具のストラップの掛け位置が左右で異なり、利用者のバランスが崩れる,http://www.techno-aids.or.jp/hiyari/detail.php?id=105,スリングシートを利用者の下に敷き込む際の手順は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+SELECT ?GoalLabel ?label WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve ?preparation;
+          rdfs:label ?label.
+  filter regex(?GoalLabel, ""スリングシートを利用者の下に敷き込む"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+} order by ?preparation
+"," GoalLabel 	label
+
+""スリングシートを利用者の下に敷き込む""@ja
+
+	
+
+""利用者を側臥位にする""@ja
+
+""スリングシートを利用者の下に敷き込む""@ja
+
+	
+
+""吊り具を広げる""@ja
+
+""スリングシートを利用者の下に敷き込む""@ja
+
+	
+
+""手前の端を差し込む""@ja
+
+""スリングシートを利用者の下に敷き込む""@ja
+
+	
+
+""吊り具の中央を背骨に合わせる""@ja
+
+""スリングシートを利用者の下に敷き込む""@ja
+
+	
+
+""吊り具を身体に沿わせ折り畳む""@ja
+
+""スリングシートを利用者の下に敷き込む""@ja
+
+	
+
+""利用者を仰臥位にする""@ja
+
+""スリングシートを利用者の下に敷き込む""@ja
+
+	
+
+""吊り具の端を手前に引き出す""@ja
+"
+段差を越えた衝撃で足が落ちてしまい、ケガをしそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=113,移動介助で姿勢を確認する手順は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label  WHERE {
+  {
+    select * where {
+      ?action ont:Achieve+ act:218.
+    }
+  }
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalLabel, ""姿勢を確認"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label
+
+""姿勢を確認する""@ja
+
+	
+
+""深く座る""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""アームサポートに腕を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""フットサポートに足を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""座位・体の位置・左右への傾きがないか確認する""@ja
+"
+はみ出していた肘が建具枠と接触し、ケガをしそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=118,移動介助で姿勢を確認する手順は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label  WHERE {
+  {
+    select * where {
+      ?action ont:Achieve+ act:218.
+    }
+  }
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalLabel, ""姿勢を確認"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label
+
+""姿勢を確認する""@ja
+
+	
+
+""深く座る""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""アームサポートに腕を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""フットサポートに足を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""座位・体の位置・左右への傾きがないか確認する""@ja
+"
+手押しハンドルにブレーキがついておらず、ひっくり返りそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=126,坂道の下り方は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalLabel, ""坂道を下りる"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label
+
+""坂道を下りる""@ja
+
+	
+
+""キャスターを上げる""@ja
+
+""坂道を下りる""@ja
+
+	
+
+""両脇をしっかり締める""@ja
+
+""坂道を下りる""@ja
+
+	
+
+""前向きに下りる""@ja
+
+""坂道を下りる""@ja
+
+	
+
+""坂道全体の安全確認をする""@ja
+
+""坂道を下りる""@ja
+
+	
+
+""後ろ向きに下りる""@ja
+"
+タイヤに指が入っていることに気づかず操作したため、ケガをしそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=139,移動介助で姿勢を確認する手順は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label  WHERE {
+  {
+    select * where {
+      ?action ont:Achieve+ act:218.
+    }
+  }
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalLabel, ""姿勢を確認"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label
+
+""姿勢を確認する""@ja
+
+	
+
+""深く座る""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""アームサポートに腕を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""フットサポートに足を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""座位・体の位置・左右への傾きがないか確認する""@ja
+"
+角をうまく回れず、足がぶつかってケガをしそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=140,移動介助で姿勢を確認する手順は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?label  WHERE {
+  {
+    select * where {
+      ?action ont:Achieve+ act:218.
+    }
+  }
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalLabel, ""姿勢を確認"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label
+
+""姿勢を確認する""@ja
+
+	
+
+""深く座る""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""アームサポートに腕を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""フットサポートに足を乗せる""@ja
+
+""姿勢を確認する""@ja
+
+	
+
+""座位・体の位置・左右への傾きがないか確認する""@ja
+"
+街路樹のくぼみにキャスタがはまりこみ、転落しそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=142,車いすで移動するときに注意をする行為は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct *  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?label, ""注意"")
+  filter regex(?GoalLabel, ""車いすで移動する"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation
+"," preparation 	GoalLabel 	action 	label
+http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/222 	
+
+""車いすで移動する""@ja
+
+	http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/249 	
+
+""前後左右に注意する""@ja
+
+http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/240 	
+
+""車いすで移動する""@ja
+
+	http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/249 	
+
+""前後左右に注意する""@ja
+"
+"傾斜に気づかず流れてしまい
+、車道に飛び出しそうになる",http://www.techno-aids.or.jp/hiyari/detail.php?id=144,車いすで移動するときに注意をする行為は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct *  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?label, ""注意"")
+  filter regex(?GoalLabel, ""車いすで移動する"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation
+"," preparation 	GoalLabel 	action 	label
+http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/222 	
+
+""車いすで移動する""@ja
+
+	http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/249 	
+
+""前後左右に注意する""@ja
+
+http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/240 	
+
+""車いすで移動する""@ja
+
+	http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/249 	
+
+""前後左右に注意する""@ja
+"
+階段を踏み外し、転倒しそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=149,車いすで移動するときに注意をする行為は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct *  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?label, ""注意"")
+  filter regex(?GoalLabel, ""車いすで移動する"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation
+"," preparation 	GoalLabel 	action 	label
+http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/222 	
+
+""車いすで移動する""@ja
+
+	http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/249 	
+
+""前後左右に注意する""@ja
+
+http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/240 	
+
+""車いすで移動する""@ja
+
+	http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/249 	
+
+""前後左右に注意する""@ja
+"
+ブレーキをかけ忘れたことにより車いすが移動し、転倒しそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=150,自走の場合の介護手順と詳細情報は何ですか？,"
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?condition ?label ?DI1 ?label2 ?DI2 WHERE {
+  {
+    ?action a ont:Action;
+        ont:hasCondition ?condition;
+        ont:Order+ ?action2;
+        rdfs:label ?label.
+    ?action2 rdfs:label ?label2.
+    OPTIONAL{?action ont:hasDetailedInformation ?DI1.}.
+    OPTIONAL{?action2 ont:hasDetailedInformation ?DI2.}.
+    filter regex(?condition, ""自走"")
+    filter (LANG(?label)='ja')
+    filter (LANG(?label2)='ja')
+  }
+  union
+  {
+    ?action a ont:Action;
+        ont:hasCondition ?condition;
+        ont:NonOrder+ ?action2;
+        rdfs:label ?label.
+    ?action2 rdfs:label ?label2.
+    OPTIONAL{?action ont:hasDetailedInformation ?DI1.}.
+    OPTIONAL{?action2 ont:hasDetailedInformation ?DI2.}.
+    filter regex(?condition, ""自走"")
+    filter (LANG(?label)='ja')
+    filter (LANG(?label2)='ja')
+  }
+
+} order by ?action
+"," condition 	label 	DI1 	label2 	DI2
+
+""自走""
+
+	
+
+""移動する""@ja
+
+		
+
+""見守る""@ja
+
+	
+
+""・開始時にブレーキを外したか・患側の腕がアームサポートに乗っているか・衣類や掛物が車輪に巻き込まないか・患側の足がフットサポートに乗っているか・前後左右に注意するよう促す・停止時に、ブレーキをかけているか""
+"
+勢いよく座ったことで車体が傾き、ひっくり返りそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=153,座るための手順と行為の属性は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+SELECT distinct ?GoalLabel ?label ?attribute WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+  OPTIONAL{ ?action ont:hasAttribute ?attribute.}.
+
+  filter regex(?GoalLabel, ""座る"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," GoalLabel 	label 	attribute
+
+""深く座る""@ja
+
+	
+
+""滑らせる途中で上半身をもと来た方に傾ける""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""座面に腰を下ろす""@ja
+
+	
+
+""静かに""
+
+""座る""@ja
+
+	
+
+""座面に腰を下ろす""@ja
+
+	
+
+""quietly""@en
+
+""座る""@ja
+
+	
+
+""腰を落とす""@ja
+
+	
+
+""ゆっくり""
+
+""座る""@ja
+
+	
+
+""腰を落とす""@ja
+
+	
+
+""slowly""@en
+
+""座る""@ja
+
+	
+
+""必要に応じて利用者の臀部の位置を調整する""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""アームサポートに両上肢を乗せる""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""フットサポートに足を乗せる""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""介護者によりかかる""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""体幹の傾きがないかを確認する""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""体幹を健側に傾ける""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""体幹を左右に傾ける""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""健側の臀部を後方にずらす""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""利用者が座ったら手を離す""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""前かがみになる""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""姿勢を確認する""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""患側の手を保護する""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""患側の膝と臀部を後方へずらす""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""患側を介助する""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""手を車いすに挟まないよう注意する""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""深く座りなおす""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""着座面を確認する""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""膝を曲げる""@ja
+
+	
+
+""座る""@ja
+
+	
+
+""臀部を後方にずらす""@ja
+
+	
+
+""利用者の横に座る""@ja
+
+	
+
+""健側から介助する""@ja
+
+	"
+シートを無理やり引き抜いたため、転落しそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=208,スライディングシートを使った行為の手順は？,"
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?GoalCondition ?label  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?preparation ont:hasCondition ?GoalCondition.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalCondition, ""スライディングシート"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation
+"," GoalLabel 	GoalCondition 	label
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者を仰臥位に戻す""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""摩擦を少なくする""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""両手でスライディングシートを引く""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者の手を胸の前で組む""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者の膝を立てる""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""大きく足を開いて立つ""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者の両肩の下のシートを両手で持つ""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""介護者の体を反らせる""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""シートを引く""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""両膝を曲げる""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者の足元側の足に重心を乗せる""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""脚でベッドを蹴るようにする""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者を側臥位にする""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""ベッドにスライディングシートを敷く""@ja
+"
+"勢いよく押してしまったため
+、頭をぶつけそうになる",http://www.techno-aids.or.jp/hiyari/detail.php?id=209,スライディングシートを使った行為の手順は？,"
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?GoalLabel ?GoalCondition ?label  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?preparation ont:hasCondition ?GoalCondition.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?GoalCondition, ""スライディングシート"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation
+"," GoalLabel 	GoalCondition 	label
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者を仰臥位に戻す""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""摩擦を少なくする""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""両手でスライディングシートを引く""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者の手を胸の前で組む""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者の膝を立てる""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""大きく足を開いて立つ""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者の両肩の下のシートを両手で持つ""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""介護者の体を反らせる""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""シートを引く""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""両膝を曲げる""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者の足元側の足に重心を乗せる""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""脚でベッドを蹴るようにする""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""利用者を側臥位にする""@ja
+
+""スライディングシートで水平移動する""@ja
+
+	
+
+""スライディングシートを利用する""
+
+	
+
+""ベッドにスライディングシートを敷く""@ja
+"
+前方がよく見えず、転落しそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=218,車いすで移動するときに注意をする行為は？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct *  WHERE {
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          rdfs:label ?label.
+
+  filter regex(?label, ""注意"")
+  filter regex(?GoalLabel, ""車いすで移動する"")
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation
+"," preparation 	GoalLabel 	action 	label
+http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/222 	
+
+""車いすで移動する""@ja
+
+	http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/249 	
+
+""前後左右に注意する""@ja
+
+http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/240 	
+
+""車いすで移動する""@ja
+
+	http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/249 	
+
+""前後左右に注意する""@ja
+"
+ひざ掛けがキャスターに絡まり、前方に転落しそうになる,http://www.techno-aids.or.jp/hiyari/detail.php?id=333,移動介助の際に注意すべきことは？,"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX sm: <http://coto.pj.aist.go.jp/ontologies/structured-manual/>  
+PREFIX ont: <http://coto.pj.aist.go.jp/ontologies/structured-manual#>  
+PREFIX act: <http://coto.pj.aist.go.jp/ontologies/structured-manual/Action/>  
+  
+ SELECT distinct ?label ?risk  WHERE {
+  {
+    select * where {
+      ?action ont:Achieve+ act:218.
+    }
+  }
+  {
+  ?preparation rdfs:label ?GoalLabel.
+  ?action ont:Achieve+ ?preparation;
+          ont:hasRisk ?risk;
+          rdfs:label ?label.
+
+  filter (LANG(?GoalLabel)='ja')
+  filter (LANG(?label)='ja')
+  }
+
+
+} order by ?preparation"," label 	risk
+
+""安全を確認する""@ja
+
+	
+
+""見通しの悪い角で出合い頭にぶつかる""
+
+""利用者の着座姿勢の乱れに気を付ける""@ja
+
+	
+
+""麻痺側の手足が落ち、車いすに巻き込む　服やひざ掛けなどを車いすに巻き込む""
+
+""前向きに下りる""@ja
+
+	
+
+""前方への転落""
+
+""ティッピングレバーを強く踏み込む""@ja
+
+	
+
+""腕の力だけでは介護者に過度の負担がかかる""
+
+""グリップを押し下げる""@ja
+
+	
+
+""フレームが曲がる又は折れる""
+
+""後ろ向きに下りる""@ja
+
+	
+
+""前向きでの転落""
+
+""ゆっくり走行する""@ja
+
+	
+
+""車いすが振動する""
+
+""階段を昇降する""@ja
+
+	
+
+""転倒・転落が重大事故につながる""
+
+""歩行を介助する""@ja
+
+	
+
+""進行方向に引っ張ると不安定になり転倒する""
+
+""介護者の前腕部を持つ""@ja
+
+	
+
+""向かい合っていると互いに進行方向の安全が確認できない""
+"
