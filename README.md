@@ -25,8 +25,18 @@ The Association for Technical Aids: 福祉用具ヒヤリ・ハット情報, htt
 
 ## Citation
 Please cite "Oops-solver-QA-dataset (https://github.com/satoshinishimura2460/Oops-solver-QA-dataset/)" if you utilize this dataset under the [licence](.\LICENSE.MD).   
-We will add publication information about this dataset here.   
-Nishimura, S., Oshiyama, C., Oota, Y.: Towards “Oops! solver” for elderly care: structured manuals and its evaluation, International Conference on Nursing Informatics (2020). (Submission)  
+We added publication information about this dataset here.   
+> Nishimura, S., Oshiyama, C., & Oota, Y. (2021). Towards Developing “Oops! Solver” for Elderly Care. In Nurses and Midwives in the Digital Age (pp. 436-441). IOS Press.   
+```bibtex
+@incollection{nishimura2021towards,
+  title={Towards Developing “Oops! Solver” for Elderly Care},
+  author={Nishimura, Satoshi and Oshiyama, Chiaki and Oota, Yuichi},
+  booktitle={Nurses and Midwives in the Digital Age},
+  pages={436--441},
+  year={2021},
+  publisher={IOS Press}
+}
+```
 
 ## Update plan
 * Update of the contents
